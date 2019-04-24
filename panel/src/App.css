@@ -1,0 +1,120 @@
+*{
+  box-sizing: inherit;
+  font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: rgb(33, 37, 41);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+}
+.btn{
+  color: white;
+}
+.btn:hover{
+  color: teal;
+}
+
+.darksalmon{
+  color: darksalmon;
+}
+
+
+.main{
+  margin: 0;
+}
+.left{
+ 
+  max-width: 140vh;
+  padding-right: 0%!important;
+  padding-left: 0%!important;
+ 
+  
+}
+.right{
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 3;
+  margin-left: 150vh;
+  margin-right: 0;
+  right: 0px;
+}
+
+.about-header {
+  background-color: #216605;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: darksalmon;
+}
+
+
+.penColor{
+  color: white;
+}
+
+.comment{
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-top: 20px!important
+}
+
+
+.bgBtn{
+  background-color: black
+}
+
+
+.jumbotron{
+  background-color: rgba(0,0,0,0);
+  padding: 0px;
+}
+
+
+.border {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin: 6px;
+}
+
+
+.App1{
+  height: 100%
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
